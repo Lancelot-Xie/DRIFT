@@ -31,7 +31,10 @@ Across multiple long-context benchmarks, DRIFT achieves superior performance whi
 
 For more details, please refer to our [arXiv paper](https://arxiv.org/abs/2602.10021).
 
-![DRIFT Framework](assets/DRIFT.png)
+<p align="center">
+  <img src="assets/DRIFT.png" width="90%"><br>
+  <em>Figure 1: The overall architecture of the DRIFT framework.</em>
+</p>
 
 ## 🛠️ Installation (Coming Soon)
 
