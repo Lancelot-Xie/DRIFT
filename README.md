@@ -40,7 +40,7 @@ For more details, please refer to our [arXiv paper](https://arxiv.org/abs/2602.1
 
 ```bash
 # Example placeholder for future steps
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/Lancelot-Xie/DRIFT.git
 cd your-repo-name
 pip install -r requirements.txt
 ```
