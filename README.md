@@ -1,6 +1,6 @@
 # DRIFT
 
-Official implementation of the paper: **[Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference](https://arxiv.org/abs/xxxx.xxxxx)** (arXiv 2026).
+Official implementation of the paper: **[[Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference](https://arxiv.org/abs/2602.10021)]** (arXiv 2026).
 ---
 
 ## 📢 News
@@ -29,12 +29,9 @@ To ensure the reproducibility and code quality, we are releasing the project in 
 [DRIFT decouples reading from reasoning by preventing the reasoning model from directly processing raw long-context inputs, instead providing it with a knowledge representation explicitly designed for reasoning.
 Across multiple long-context benchmarks, DRIFT achieves superior performance while significantly compressing the input context, leading to improved efficiency, and outperforming both full-context inference and existing compression-based methods.]
 
-For more details, please refer to our [arXiv paper]([https://arxiv.org/abs/xxxx.xxxxx](https://arxiv.org/abs/2602.10021)).
+For more details, please refer to our [arXiv paper](https://arxiv.org/abs/2602.10021).
 
-<p align="center">
-  <img src="assets/DRIFT.png" width="800">
-</p>
----
+![DRIFT Framework](assets/DRIFT.png)
 
 ## 🛠️ Installation (Coming Soon)
 
