@@ -1,6 +1,6 @@
-# [Your Project Name]
+# DRIFT
 
-Official implementation of the paper: **[[Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference]](https://arxiv.org/abs/xxxx.xxxxx)** (arXiv 2026).
+Official implementation of the paper: **[Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference](https://arxiv.org/abs/xxxx.xxxxx)** (arXiv 2026).
 ---
 
 ## 📢 News
