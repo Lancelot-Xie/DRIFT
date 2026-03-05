@@ -1,0 +1,22 @@
+# 忽略权重文件 (Checkpoints)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+checkpoint-*/
+
+# 忽略数据集大文件 (Datasets)
+*.parquet
+*.jsonl
+*.csv
+*.gz
+
+# 忽略 Python 缓存与运行产生的杂质
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# 忽略本地测试脚本
+test.py
