@@ -5,6 +5,7 @@ Official implementation of the paper: **[[Decoupled Reasoning with Implicit Fact
 
 ## 📢 News
 - **[2026-02-12]**: Project repository initialized. We are currently cleaning up the code for public release. Stay tuned!
+- **[2026-03-05]**: Released the **LFRP** and **QAFT** datasets on Hugging Face! Check them out here: [LFRP data](https://huggingface.co/datasets/SII-LancelotXie/DRIFT_LFRP) and [QAFT_data](https://huggingface.co/datasets/SII-LancelotXie/DRIFT_QAFT). Released the data synthesis pipeline (`./data_generation/generate_qa.py`) for generating QA-Evidence triplets.
 
 ---
 
@@ -14,7 +15,7 @@ To ensure the reproducibility and code quality, we are releasing the project in 
 
 - [ ] **Phase 1: Inference & Data**
     - [ ] Core model architecture and inference scripts.
-    - [ ] Processed training datasets and data synthesis pipelines.
+    - [x] Processed training datasets and data synthesis pipelines.
 - [ ] **Phase 2: Model Weights**
     - [ ] Pre-trained checkpoints for different model scales.
 - [ ] **Phase 3: Training Pipeline**
