@@ -20,3 +20,6 @@ __pycache__/
 
 # 忽略本地测试脚本
 test.py
+
+# 忽略 Demo 运行时产生的历史记录
+demo/history/
