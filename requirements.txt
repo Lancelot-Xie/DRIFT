@@ -1,0 +1,17 @@
+accelerate==1.6.0
+datasets==3.6.0
+deepspeed==0.16.9
+langchain-text-splitters==0.3.8
+loguru==0.7.3
+matplotlib==3.10.3
+nltk==3.9.1
+numpy==2.2.5
+packaging==24.2
+pandas==2.2.3
+peft==0.15.2
+pytorch-lightning==2.5.1.post0
+rouge_score==0.1.2
+torch==2.5.1
+tqdm==4.67.1
+transformers==4.51.3
+trl==0.17.0
