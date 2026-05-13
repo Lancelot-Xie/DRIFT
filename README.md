@@ -43,6 +43,7 @@ stages:
   - [x] Three-stage training CLI.
   - [x] Public shell templates for LFRP, QAFT-DC, and QAFT-QA.
 
+
 If you find this work useful, please consider starring the repository to follow
 future checkpoint and training updates.
 
@@ -268,14 +269,11 @@ DRIFT/
 If you find this work useful for your research, please cite our paper:
 
 ```bibtex
-@misc{xie2026decoupledreasoningimplicitfact,
-      title={Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference},
-      author={Wenxuan Xie and Yujia Wang and Xin Tan and Chaochao Lu and Xia Hu and Xuhong Wang},
-      year={2026},
-      eprint={2602.10021},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.10021},
+@article{xie2026decoupled,
+  title={Decoupled Reasoning with Implicit Fact Tokens (DRIFT): A Dual-Model Framework for Efficient Long-Context Inference},
+  author={Xie, Wenxuan and Wang, Yujia and Tan, Xin and Lu, Chaochao and Hu, Xia and Wang, Xuhong},
+  journal={arXiv preprint arXiv:2602.10021},
+  year={2026}
 }
 ```
 
