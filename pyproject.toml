@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drift-lm"
+version = "0.1.0"
+description = "Decoupled Reasoning with Implicit Fact Tokens"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Wenxuan Xie" }
+]
+dependencies = [
+  "accelerate>=1.6.0",
+  "datasets>=3.6.0",
+  "langchain-text-splitters>=0.3.8",
+  "numpy>=2.0.0",
+  "peft>=0.15.0",
+  "torch>=2.5.0",
+  "tqdm>=4.67.0",
+  "transformers>=4.51.0",
+  "trl>=0.17.0"
+]
+
+[project.optional-dependencies]
+train = [
+  "matplotlib>=3.10.0",
+  "pytorch-lightning>=2.5.0",
+  "wandb>=0.19.0"
+]
+eval = [
+  "nltk>=3.9.0",
+  "rouge-score>=0.1.2"
+]
+data-generation = [
+  "openai>=1.0.0",
+  "pandas>=2.0.0",
+  "pyarrow>=16.0.0"
+]
+deepspeed = [
+  "deepspeed>=0.16.0"
+]
+
+[project.scripts]
+drift-train = "drift.training.train:main"
+drift-eval-multi = "drift.inference.eval_multi:main"
+drift-infer = "drift.inference.infer:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
